@@ -124,7 +124,7 @@ class MainBot:
         return self.paths[e]['t'], self.paths[e]['v']
 
     def wait_for_el(self, el, time_to_wait=15, multiple=False, item=None, can_fail=False):
-        self.sleep(1)
+        self.sleep(3)
         wait = WebDriverWait(self.driver, time_to_wait)
         if item:
             wait = WebDriverWait(item, time_to_wait)

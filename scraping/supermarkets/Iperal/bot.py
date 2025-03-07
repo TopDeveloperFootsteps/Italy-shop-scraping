@@ -65,9 +65,9 @@ class ScaperBot(MainBot):
     def select_address(self):
         self.log(f'register address')
         try:
-            field_modal_finish_btn = self.wait_for_el('close_first_modal')
-            field_modal_finish_btn.click()
-            self.log("Close first modal")
+            # field_modal_finish_btn = self.wait_for_el('close_first_modal')
+            # field_modal_finish_btn.click()
+            # self.log("Close first modal")
 
             self.log(f'click address select')
             select_address_button = self.wait_for_el('address_select')
@@ -82,6 +82,7 @@ class ScaperBot(MainBot):
             input_address.send_keys(self.address)
 
             list_address = self.wait_for_el('address_list')
+            print(list_address)
             content_divs = list_address.find_elements(By.XPATH, "./div")
             if content_divs:
                 content_divs[0].click()
@@ -106,13 +107,12 @@ class ScaperBot(MainBot):
                 self.log('clicked correct day')
             else:
                 self.log('incorrect day')
-            
+           
             self.log(f"click time select")
             field_time_list = self.wait_for_el('time_list')
-            # content_time_divs = field_time_list.find_elements(By.XPATH,'./div')
-            selected_time_slot = field_time_list.find_element(By.XPATH, ".//div[contains(@class, 'selected')]")
-            if selected_time_slot:
-                selected_time_slot.click()
+            inner_container_div = field_time_list.find_element(By.XPATH, ".//div[contains(@class, 'timeslot-button d-flex justify-center empty selected')]")
+            if inner_container_div:
+                inner_container_div.click()
                 self.log('clicked correct time')
             else:
                 self.log('incorrect time')
