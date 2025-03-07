@@ -1,0 +1,99 @@
+{
+  "breadcrumbs": {
+    "t": "xpath", "v": "//*[@id='maincontent']/div[3]/div/nav/ol"
+  },
+  "breadcrumbs_items": {
+    "t": "class name", "v": "breadcrumb-item"
+  },
+  "page_title": {
+    "t": "tag name", "v": "h1"
+  },
+  "accept_privacy": {
+    "t": "id", "v": "onetrust-accept-btn-handler"
+  },
+  "button_zip_code": {
+    "t": "id", "v": "store-selection-button"
+  },
+  "field_zip_code": {
+    "t": "id", "v": "sidebarAddressAutocomplete"
+  },
+  "confirm_zip_code": {
+    "t": "xpath", "v": "//*[@id='store-selection-bar-main']/div/div[2]/div[1]/div[7]/button[2]"
+  },
+  "delivery_service_pickup": {
+    "t": "class name", "v": "pickup_in_store"
+  },
+  "delivery_service": {
+    "t": "class name", "v": "select-service"
+  },
+  "delivery_home": {
+    "t": "class name", "v": "select-service"
+  },
+  "stores_list": {
+    "t": "css selector", "v": ".stores-list.toggleActive"
+  },
+  "choose_first_store": {
+    "t": "css selector", "v": ".store-card.js-store-card.store-card-wrapper"
+  },
+  "delivery_for_today": {
+    "t": "class name", "v": "carrefour-express"
+  },
+  "chose_delivery_later": {
+    "t": "css selector", "v": ".btn.btn-secondary.small"
+  },
+  "product_item": {
+    "t": "css selector", "v": "div.product-item.null:not(.citrus-spotlight-tile-wrapper)"
+  },
+  "brand": {
+    "t": "class name", "v": "brand"
+  },
+  "tile_description": {
+    "t": "class name", "v": "tile-description"
+  },
+  "unit_price": {
+    "t": "class name", "v": "unit-price"
+  },
+  "sales_discounted": {
+    "t": "css selector", "v": ".sales.discounted"
+  },
+  "value": {
+    "t": "class name", "v": "value"
+  },
+  "value_discounted": {
+    "t": "css selector", "v": ".value.discounted"
+  },
+  "original_price": {
+    "t": "css selector", "v": "span.strike-through .value"
+  },
+  "offers_label": {
+    "t": "class name", "v": "offers-label"
+  },
+  "pricebook_valid_date": {
+    "t": "class name", "v": "pricebook-valid-date"
+  },
+  "discount_percentage": {
+    "t": "class name", "v": "discount-percentage"
+  },
+  "product_link": {
+    "t": "class name", "v": "product-link"
+  },
+  "tile_image": {
+    "t": "class name", "v": "tile-image"
+  },
+  "product_tile": {
+    "t": "css selector", "v": ".product.tile"
+  },
+  "lifestyle": {
+    "t": "class name", "v": "lifestyle"
+  },
+  "span": {
+    "t": "tag name", "v": "span"
+  },
+  "img_url": {
+    "t":"class name", "v": "tile-image"
+  },
+  "result_number": {
+    "t": "class name",
+    "v": "results-count"
+  }
+}

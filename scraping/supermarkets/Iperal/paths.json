@@ -1,0 +1,83 @@
+{
+    "accept_privacy": {
+        "t": "id",
+        "v": "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"
+    },
+    "login_icon": {
+        "t": "xpath",
+        "v": "//*[@id='app']/div/header/div/div[1]/div[4]/div[2]/button[2]"
+    },
+    "email_field": {
+        "t": "xpath",
+        "v": "//form//input[@type='email' or contains(@placeholder, 'email') or contains(@name, 'email')]"
+    },
+    "password_field": {
+        "t": "xpath",
+        "v": "//form//input[@type='password' or contains(@placeholder, 'password') or contains(@name, 'password')]"
+    },
+    "login_confirm": {
+        "t": "xpath",
+        "v": "//*[@id='app']/div[3]/div/div/div[2]/div/div/div/form/div/div[3]/div[5]/div/button"
+    },
+    "close_first_modal":{
+        "t": "xpath",
+        "v": "//*[contains(@class, 'vuedl-layout__closeBtn')]"
+    },
+    "address_select":{
+        "t":"xpath",
+        "v": "//*[@id='app']/div[1]/header/div/div[1]/div[4]/div[1]/div/div/div[2]/div[2]/button[1]"
+    },
+    "select_sub": {
+        "t": "xpath",
+        "v": "//div[contains(@class, 'v-tab') and contains(@class, 'v-tab--active') and @role='tab']"
+    },
+    "input_address": {
+        "t": "xpath",
+        "v": "//label[contains(text(), 'Cerca il punto vendita')]/following-sibling::input"
+    },
+    "address_list": {
+        "t": "xpath",
+        "v": "//*[@id='app']/div[4]/div/div/div[2]/div/div[3]/div[2]/div"
+    },
+    "time_select": {
+        "t": "xpath",
+        "v": "//*[@id='app']/div[1]/header/div/div[1]/div[4]/div[1]/div/div/div[2]/div[2]/button[2]"
+    },
+    "day_list":{
+        "t": "xpath",
+        "v": "//*[@id='app']/div[4]/div/div/div[2]/div/div[2]/div/div[2]/div"
+    },
+    "time_list": {
+        "t": "xpath",
+        "v": "//*[@id='app']/div[4]/div/div/div[2]/div/div[3]/div/div/div"
+    },
+    "product_item":{
+        "t": "css selector",
+        "v": ".product-col.col-sm-6.col-md-4.col-lg-3.col-xl-2.col-12"
+    },
+    "result_number":{
+        "t":"xpath",
+        "v": "//*[@id='app']/div[1]/main/div/div/div/div/div[1]/div/div/strong"
+    },
+    "product_link": {
+        "t": "class name", "v": "product-card"
+    },
+    "product_img": {
+        "t": "class name", "v": "product-img"
+    },
+    "brand": {
+        "t": "class name", "v": "brand"
+    },
+    "name": {
+        "t": "class name", "v": "name"
+    },
+    "description": {
+        "t": "class name", "v": "descr"
+    },
+    "price": {
+        "t": "class name", "v": "cur-price"
+    },
+    "original_price": {
+        "t": "class name", "v": "old-price"
+    }
+}
